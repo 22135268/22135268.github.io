@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact Us</title>
+<style>
+body {
+      font-family: 'Courier New', monospace;
+	  background-color: #FFFBEB;
+	  max-width: 950px; /*Use max-width for flid behavior*/
+	  margin: 0 auto; /*A shorthand for centered margins*/
+	  padding: 20px; /Add padding to prevent content from touching screen edges*/
+} 
+h1{
+        font-family:'Courier New', monospace;
+   color: #332801;
+}
+
+h3{
+
+color: #332801
+}
+p{
+  color: #161716
+  font-family:
+ Garamond
+}
+a:link {color:#1A1200;}
+a:visited {color:#C29857;}
+a:hover{color: #F2DDB8}
+.container {
+  position: relative;
+}
+
+.topleft {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 20px;
+}
+
+img { 
+  width: 100%;
+  height: auto;
+  opacity: 1;
+}
+
+</style>
+</head>
+<body>
+
+<nav>
+
+<p>
+<a href="index.htm">Homepage</a> :
+<a href="mobile.htm">Mobile Devices</a> : 
+<a href="upgrades.htm">Upgrades</a> :
+<a href="services.htm">Services</a> :
+<a href="accessories.htm">Accessories</a> :
+<a href="map.htm">Map of stores</a> :
+<a href="accessibility.htm">Accessibility</a> :
+<a href="contact.htm">Contact Info</a> 
+</p>
+
+</nav>
+
+<img src="images/Banner2.jpg" alt="MWS Banner Image">
+
+<div class="container">
+  <h1>Contact Form</h1>
+  <form target="_blank" action="https://formsubmit.co/your@email.com" method="POST">
+    <div class="form-group">
+      <div class="form-row">
+        <div class="col">
+          <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+        </div>
+        <div class="col">
+          <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+  </form>
+</div>
+
+
+</body>
+</html>
