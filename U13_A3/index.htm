@@ -79,9 +79,26 @@ th, td {padding: 5px;
 <div class="topleft"></div>
 
 
+
 <img src="images/mob_home.png" alt="mobile phone" style="width:250px;height:333px;"> <img src="images/mob_acc.jpg" alt="mobile phone accessories" style="width:250px;height:250px;"> <img src="images/mob_serv.webp" alt="mobile phone services" style="width:250px;height:250px;"> 
 
 <h1>Who are we?</h1>
+
+<script>
+//Time of day message script- by javascriptkit.com
+//Visit JavaScript Kit (http://javascriptkit.com) for script
+//Modified by Oskar Dlubak
+//Credit must stay intact for use
+var Digital=new Date()
+var hours=Digital.getHours()
+//Configure message below to your own.
+if (hours>=3&&hours<=12) //MESSAGE FOR MORNING (3:00-11:59)
+document.write('<b>First of all Dzien Dobry, welcome to my great website.</b>')
+else if (hours>12&&hours<=17) //MESSAGE FOR AFTERNOON (12:00-16:59)
+document.write('<b>First of all Good Afternoon, welcome to my awesome website.</b>')
+else //MESSAGE FOR THE REST OF THE DAY (17:00-2:59)
+document.write('<b>First of all Dobry wieczór, welcome to my fantastic website.</b>')
+</script>
 
 <p>We are mobile world station, we're a company that prioritzes the promotion of mobile phones, accessories and services.</p>
 
